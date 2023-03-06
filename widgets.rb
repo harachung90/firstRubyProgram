@@ -1,8 +1,7 @@
 def ask(question)
   print question + " "
-  answer = gets
+  answer = gets.chomp
   p "You entered #{answer} widgets."
-  p answer
 end
 
 
