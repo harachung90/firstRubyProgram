@@ -1,7 +1,8 @@
 def ask(question)
-  print question
+  print question + " "
   answer = gets
-  puts answer
+  p "You entered #{answer} widgets."
+  p answer
 end
 
 
